@@ -1,0 +1,280 @@
+/* estilo universal*/
+*{
+	font-family:roboto, arial;
+	 
+}
+body{
+	max-width:1380px;
+	margin: 0 auto;
+}
+
+/*estilo de la cabezera*/
+.principal{
+	width: 100%;
+	height: 305px;
+	background-color: #fff;
+}
+		.logotipo{
+		    padding: 0px 0 0 0px;
+		}
+		.buscando{
+		    float: right;
+		    padding: 146px 30px 0 0;
+		}
+		.redes{
+			float: right;
+			padding: 146px 30px 0 0;
+			display: inline-block;
+			}
+			.redes img{
+				padding: 0 5px;
+			}
+/*Estilos generales de la navegacion*/
+
+	.menuprincipal{
+	display:inline-block;
+	height: 50px
+	width:100%;
+	float: right;
+	margin:-80px 50px 0 0;
+	font-size: 24px;
+
+	}
+	
+/*primer nivel*/
+	.menuprincipal ul{
+	    list-style: none; 
+	    
+	}
+	.menuprincipal ul li a{
+			text-decoration: none;
+			padding: 1em;
+			background-color:#0070bb;
+			color:#fff;
+			display:block;
+			border: 2px solid #0070bb;
+		}
+	.menuprincipal ul li a:hover{
+		background-color:#fff;
+		 color:#0070bb;
+
+	}
+	.menuprincipal ul li {
+		float:left;
+	}	
+
+
+/*estilos de contenido*/
+.contenidogeneral{
+	margin: 0 auto;
+	height: 2590px;	
+} 
+.imagencentro{
+		margin: 70px 0 0 0;
+		width:1380px;
+		height:431px;
+		background-color:#cae1f1 
+
+	}
+.imagencentro img {
+	margin: 0 0 0 160px;
+}
+	
+
+.postcentro{
+	text-align: center;
+	margin:50px 0 0 0;
+
+}
+.postcentro h1{
+	color: #0070bb;
+	font-size: 60px;
+	font-weight: bold;
+	font-family: roboto , arial;
+}
+.postcentro p{
+	text-align:center;
+	font-size: 30px;
+	font-family:roboto,arial;
+
+}
+.imagencentro2{
+	text-align: center;
+	margin:80px 0 0 0;
+}
+
+.fondo{
+margin:50px 0px ;
+width:1290px;
+height:495px;
+background-color: #0070bb;
+padding: 30px;
+
+		}	
+		.contenidoizq {
+			float:left;
+			height: 367px; 
+			width: 550px;
+			color: #fff;
+			font-size:26px
+
+		}
+		.contenidoder {
+			float:right;
+			height: 367px; 
+			width: 550px;
+			color: #fff;
+			font-size: 26px
+
+		}
+
+
+/*FOOTER*/
+
+.pie{
+	margin: 0 auto;
+	height: 100%;
+	color:#fff;
+}
+.fondo2{
+	width:1380px;
+	height: 355px;
+	background-color: #333;
+	margin:0 auto;
+
+}
+.contactos{
+	font-size:18px;
+	float: left;
+	padding: 0 0 0 120px;Í
+
+
+}
+.contactos h3 {
+	font-size: 18px;
+	padding: 40px 0 0 0;
+
+}
+.contactos p {
+	font-size: 18px;
+	padding: 1em;
+
+}
+.redespie{
+	float: left;
+	align-items: left ;
+	padding: 0 auto;
+	margin: 50px 40PX 122PX 122px;
+
+}
+.redespie img {
+	position: relative;
+	top:20px;
+	bottom:;
+	right:550px;
+	left:;
+
+	}
+   .redespie img {
+   	display: flex;
+   	padding: 1em;
+
+
+}
+.redesi{
+	float: right;
+	padding: 2em;
+	margin: 50px 140px 0 0;
+
+}
+
+/*RESPONSIVE DESING*/
+
+@media screen and (max-width: 780px){
+
+	body{
+		width: 780px;
+		background-color: 
+	}
+		.menuprincipal{
+			width: 80%;
+		}
+		.logotipo{
+			width: 50%;
+		}
+		.buscando{
+			display: none;
+		}
+		.menuprincipal{
+			float: left;
+			margin:0 0 0 0; 
+			width: 70%;
+		}
+		.menuprincipal ul{
+			display: inline-block;
+			width: 100%;
+		}
+		.menuprincipal ul li a{
+			width: 100%;
+		}
+		.menuprincipal ul li {
+			display: inline-block;
+			width: 50%;
+		}	
+		.contenidogeneral{
+			width: 100%;
+		}
+		.imagencentro {
+			width: 768PX;
+			display: inline-block;
+		}
+		.postcentro{
+			display: block;
+			width: 100%;
+		}
+		.imagencentro img {
+			margin: 0 0 0 -237px;
+		}
+		.fondo{
+			width: 100%;
+			display: inline-block;
+			margin: 0 auto;
+			height: 600PX;
+		}
+		.contenidoizq{
+			width: 40%;
+		}
+		.contenidoder{
+			width: 40%;
+		}
+		.mapa{
+			display: none;
+		}
+		.pie{
+			width: 100%;
+		}
+		.fondo2{
+			width: 768px;
+		}
+		.redespie{
+			display: block;
+			float: left;
+		}
+		.redesi{
+			margin: -430px 50PX 0 0 ;
+		}
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

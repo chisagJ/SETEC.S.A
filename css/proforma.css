@@ -1,0 +1,316 @@
+/* estilo universal*/
+*{
+	font-family:roboto, arial;
+	 
+}
+body{
+	max-width:1380px;
+	margin: 0 auto;
+}
+
+/*estilo de la cabezera*/
+.principal{
+	width: 100%;
+	height: 305px;
+	background-color: #fff;
+}
+		.logotipo{
+		    padding: 0px 0 0 0px;
+		}
+		.buscando{
+		    float: right;
+		    padding: 146px 30px 0 0;
+		}
+		.redes{
+			float: right;
+			padding: 146px 30px 0 0;
+			display: inline-block;
+			}
+			.redes img{
+				padding: 0 5px;
+			}
+/*Estilos generales de la navegacion*/
+
+	.menuprincipal{
+	display:inline-block;
+	height: 50px
+	width:100%;
+	float: right;
+	margin:-80px 50px 0 0;
+	font-size: 24px;
+
+	}
+	
+/*primer nivel*/
+	.menuprincipal ul{
+	    list-style: none; 
+	    
+	}
+	.menuprincipal ul li a{
+			text-decoration: none;
+			padding: 1em;
+			background-color:#0070bb;
+			color:#fff;
+			display:block;
+			border: 2px solid #0070bb;
+		}
+	.menuprincipal ul li a:hover{
+		background-color:#fff;
+		 color:#0070bb;
+
+	}
+	.menuprincipal ul li {
+		float:left;
+	}	
+
+
+/*estilos de contenido*/
+.contenidogeneral{
+	margin: 60PX auto;
+	height: 1500px;
+	
+	
+}
+	.contenidogeneral{
+		background-color: #cae1f1;
+	}
+	.contenido{
+		margin:0 auto;
+	}
+
+	
+		.postcentro{
+			position:absolute;
+			display: block;
+			width:1380px ;
+			height: 0;
+		}
+			.postcentro h1{
+				font-size: 46px;
+				font-weight: bold;
+				color: #000;
+				text-align: center;
+				margin: 50px 0 0 0 ;
+
+			}
+			
+
+			.postcentro p{
+				padding: 100PX  0 0 100px ;
+				font-size: 26px;
+				font-family:roboto,arial;
+
+			}
+			
+				
+.cuadrodemesajes{
+	font-size: 26px;
+	padding: 410px 0 0 0;
+	text-align: block; 
+ }
+
+.box1{
+width:450px;
+height: 109px;
+margin:2px 0 0 50px;
+padding: 40px;
+font-size:italic;
+background-color:#fff;
+color:#000;
+}
+	.box1{
+	float: left;
+	margin: 150px 0 0 100px ; 
+	}
+.box2{
+width:450px;
+height: 109px;
+margin:2px 0 0 50px;
+padding: 40px;
+font-size:italic;
+background-color:#fff;
+color:#000;
+
+}
+.box2{
+	float: right;
+	margin: 150px 190px 0 0;
+}
+.box3{
+width: 1010px;
+height: 296px;
+margin:2px 0 0 50px;
+padding: 40px;
+font-size:italic;
+background-color:#fff;
+color:#000;
+}
+.box3{
+	margin: 380px  0 0 100px;
+}
+.box4{
+width: 400px;
+height: 50px;
+margin:2px 0 0 50px;
+padding: 0;
+font-size:italic;
+background-color:#fff;
+color:#000;
+}
+.box4{
+	float: right;
+	margin: 20px 190px 0 0;
+}
+
+
+/*FOOTER*/
+
+.pie{
+	margin: 0 auto;
+	height: 100%;
+	
+}
+.fondo2{
+	width:1380px;
+	height: 355px;
+	background-color: #333;
+	margin:0 auto;
+
+}
+.contactos{
+	font-size:18px;
+	float: left;
+	padding: 0 0 0 120px;
+	color:#fff;
+
+
+}
+.contactos h3 {
+	font-size: 18px;
+	padding: 40px 0 0 0;
+
+}
+.contactos p {
+	font-size: 18px;
+	padding: 1em;
+
+}
+.redespie{
+	float: left;
+	align-items: left ;
+	padding: 0 auto;
+	margin: 50px 40PX 122PX 122px;
+
+}
+.redespie img {
+	position: relative;
+	top:20px;
+	bottom:;
+	right:550px;
+	left:;
+
+	}
+   .redespie img {
+   	display: flex;
+   	padding: 1em;
+
+
+}
+.redesi{
+	float: right;
+	padding: 2em;
+	margin: 50px 120px 0;
+	color: #fff;
+}
+
+
+@media screen and (max-width: 780px){
+
+	body{
+		width: 100%;
+	}
+		.menuprincipal{
+			width: 80%;
+		}
+		.logotipo{
+			width: 50%;
+		}
+		.buscando{
+			display: none;
+		}
+		.menuprincipal{
+			float: left;
+			margin:0 0 0 0; 
+			width: 70%;
+		}
+		.menuprincipal ul{
+			display: inline-block;
+			width: 100%;
+		}
+		.menuprincipal ul li a{
+			width: 100%;
+		}
+		.menuprincipal ul li {
+			display: inline-block;
+			width: 50%;
+		}
+		.contenidogeneral{
+			width: 100%;
+			margin: 350px 0 0 0;
+		}
+		.contenido{
+			width: 100%;
+		}
+		.postcentro{
+			width: 100%;
+		}
+		.postcentro h1 {
+			width: 100%;
+			margin:100px 0 0 0;
+			display: block;
+		}
+		.postcentro p {
+			width: 80%;
+			padding: 50PX 0 0 40PX ;
+
+		}
+		.cuadrodemesajes{
+			width: 100%;
+		}
+		.box1{
+			width: 30%;
+			float: left;
+			margin: 200PX 0 0 60PX;
+		}
+		.box2{
+			width: 30%;
+			float: left;
+			margin: 200PX 0 0 10PX;
+		}
+		.box3{
+			width: 70%;
+			float: left;
+			margin: 50PX 0 0 60PX;
+		}
+		.box4{
+			width: 30%;
+			float: left;
+			margin: 10PX 0 0 450PX;
+		}
+.pie{
+			width: 100%;
+			margin: 200px 0 0 0;
+		}
+		.fondo2{
+			width: 768px;
+		}
+		.redespie{
+			display: block;
+			float: left;
+		}
+		.redesi{
+			margin: -430px 50PX 0 0 ;
+		}
+
+
+}

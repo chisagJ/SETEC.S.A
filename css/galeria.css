@@ -1,0 +1,324 @@
+/* estilo universal*/
+*{
+	font-family:roboto, arial;
+	 
+}
+body{
+	max-width:1380px;
+	margin: 0 auto;
+}
+
+/*estilo de la cabezera*/
+.principal{
+	width: 100%;
+	height: 305px;
+	background-color: #fff;
+}
+		.logotipo{
+		    padding: 0px 0 0 0px;
+		}
+		.buscando{
+		    float: right;
+		    padding: 146px 30px 0 0;
+		}
+		.redes{
+			float: right;
+			padding: 146px 30px 0 0;
+			display: inline-block;
+			}
+			.redes img{
+				padding: 0 5px;
+			}
+/*Estilos generales de la navegacion*/
+
+	.menuprincipal{
+	display:inline-block;
+	height: 50px
+	width:100%;
+	float: right;
+	margin:-80px 50px 0 0;
+	font-size: 24px;
+
+	}
+	
+/*primer nivel*/
+	.menuprincipal ul{
+	    list-style: none; 
+	    
+	}
+	.menuprincipal ul li a{
+			text-decoration: none;
+			padding: 1em;
+			background-color:#0070bb;
+			color:#fff;
+			display:block;
+			border: 2px solid #0070bb;
+		}
+	.menuprincipal ul li a:hover{
+		background-color:#fff;
+		 color:#0070bb;
+
+	}
+	.menuprincipal ul li {
+		float:left;
+	}	
+
+/*estilos de contenido*/
+.cotenigeneral{
+	margin: 0 auto;
+	height: 2300px;
+
+}
+.fondo{
+	background-color: #cae1f1;
+	margin: 60px 0 0 0;
+	width:1380px;
+	height:2300px;
+}
+
+.imagen1 img{
+	float: left;
+	margin: 50px 0 0 50px;
+	}
+	.imagen1 p{
+		width: 50%;
+		float: right;
+		font-size: 26px;
+		font-weight: italic;
+		color: #0070bb;
+		margin: -300px 20px 0 680px;
+	}
+.imagen2 img{
+	float: left;
+	margin: 50px 0 0 50px;
+	}
+	.imagen2 p{
+		width: 50%;
+		float: right;
+		font-size: 26px;
+		font-weight: italic;
+		color: #0070bb;
+		margin: -300px 20px 0 680px;
+	}
+.imagen3 img{
+float: left;
+margin: 50px 0 0 50px;
+
+}
+.imagen3 p{
+		width: 50%;
+		float: right;
+		font-size: 26px;
+		font-weight: italic;
+		color: #0070bb;
+		margin: -300px 20px 0 680px;
+	}
+
+.imagen4 img{
+float: left;
+margin: 50px 0 0 50px;
+}
+.imagen4 p{
+		width: 50%;
+		float: right;
+		font-size: 26px;
+		font-weight: italic;
+		color: #0070bb;
+		margin: -300px 20px 0 680px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FOOTER*/
+
+
+.pie{
+	color:#fff;
+	margin: 0 auto;
+	height: 100%;
+	
+}
+.fondo2{
+	width:1380px;
+	height: 355px;
+	background-color: #333;
+	margin:0 auto;
+
+}
+.contactos{
+	font-size:18px;
+	float: left;
+	padding: 0 0 0 120px;Í
+
+
+}
+.contactos h3 {
+	font-size: 18px;
+	padding: 40px 0 0 0;
+
+}
+.contactos p {
+	font-size: 18px;
+	padding: 1em;
+
+}
+.redespie{
+	float: left;
+	align-items: left ;
+	padding: 0 auto;
+	margin: 50px 40PX 122PX 122px;
+
+}
+.redespie img {
+	position: relative;
+	top:20px;
+	bottom:;
+	right:550px;
+	left:;
+
+	}
+   .redespie img {
+   	display: flex;
+   	padding: 1em;
+
+
+}
+.redesi{
+	float: right;
+	padding: 2em;
+	margin: 50px 120px 0;
+}
+
+
+@media screen and (max-width: 780px){
+
+	body{
+		width: 100%;
+	}
+		.menuprincipal{
+			width: 80%;
+		}
+		.logotipo{
+			width: 50%;
+		}
+		.buscando{
+			display: none;
+		}
+		.menuprincipal{
+			float: left;
+			margin:0 0 0 0; 
+			width: 70%;
+		}
+		.menuprincipal ul{
+			display: inline-block;
+			width: 100%;
+		}
+		.menuprincipal ul li a{
+			width: 100%;
+		}
+		.menuprincipal ul li {
+			display: inline-block;
+			width: 50%;
+		}
+		.cotenigeneral{
+			width: 100%;
+			padding: 250px 0 0 0 ; 
+			height: 1600px;
+		}
+		.fondo{
+			width: 100%;
+		}
+		.fondo{
+			height: 1500px;
+		}
+		.imagen1{
+			width: 100%;
+		}
+		.imagen1 img {
+			width: 40%;
+			padding: 0 0 0 10px;
+		}
+		.imagen1 p {
+			width: 40%;
+			padding: 80px 25PX 0 0;
+		}
+
+		.imagen2{
+			width: 100%;
+		}
+		.imagen2 img {
+			width: 40%;
+			padding: 0 0 0 10px;
+		}
+		.imagen2 p {
+			width: 40%;
+			padding: 80px 25PX 0 0;
+		}
+		.imagen3{
+			width: 100%;
+		}
+		.imagen3 img {
+			width: 40%;
+			padding: 0 0 0 10px;
+		}
+		.imagen3 p {
+			width: 40%;
+			padding: 80px 25PX 0 0;
+		}
+		.imagen4{
+			width: 100%;
+		}
+		.imagen4 img {
+			width: 40%;
+			padding: 0 0 0 10px;
+		}.imagen4 p {
+			width: 38%;
+			padding:40px 25PX 0 0;
+		}
+
+
+
+		.pie{
+			width: 100%;
+			margin: 0 0 0 0;
+		}
+		.fondo2{
+			width: 768px;
+		}
+		.redespie{
+			display: block;
+			float: left;
+		}
+		.redesi{
+			margin: -430px 50PX 0 0 ;
+		}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
